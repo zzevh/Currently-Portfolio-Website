@@ -496,6 +496,10 @@ a {
   cursor: pointer;
 }
 
+.p-more {
+  margin-top: 40px;
+  color: #878787;
+}
 
 @media (max-width: 1024px) {
   .logo-text {
