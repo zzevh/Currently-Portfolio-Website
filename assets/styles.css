@@ -679,7 +679,9 @@ a {
   .stats-section,
   .aboutme-section,
   .technologies-section,
-  .contact-section {
+  .contact-section,
+  .opensource-section,
+  .footer-section {
     display: none;
   }
 
