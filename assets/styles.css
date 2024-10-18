@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   cursor: url('./images/cursor1.png'), auto;
+  scroll-behavior: smooth;
 }
 
 @font-face {
@@ -501,68 +502,158 @@ a {
   color: #878787;
 }
 
-.contact-section {
+.opensource-section {
   display: flex;
   margin-top: -100px;
   margin-bottom: 10px;
   justify-content: center;
 }
 
-.contact-container {
+.opensource-container {
   width: 800px;
   margin-bottom: 10px;
 }
 
-.p-main-contact {
+.p-main-opensource {
   font-family: "Mono", sans-serif;
   font-size: 31px;
   font-weight: 800;
 }
 
-.p-main-contact-span {
+.p-main-opensource-span {
   color: #5983EA;
 }
 
-.p-bio-contact {
+.p-bio-opensource {
   margin-top: 5px;
   color: #B9B9B9;
   width: 800px;
   text-align: left;
 }
 
-.contact-container {
+.opensource-container {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
 }
 
-.contactme-div {
+.greenbank-opensource {
   width: 800px;
-  height: 350px;
-  background-image: url('./images/gridd.png');
-  background-color: #1A1A1B;
+  margin-top: 40px;
 }
 
-.contactme-name {
+.main-p-greenbank-opensource {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.p-bio-greenbank-opensource {
+  color: #B9B9B9;
+}
+
+.img-greenbank-opensource {
+  width: 600px;
+  height: 500px;
+  margin-top: 20px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 20px;
+  border: 2px solid #292929;
+}
+
+.greenbank-button {
+  font-family: "Mono", sans-serif;
+  background-color: #2D2D2D;
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  margin-right: 10px;
+  transition: background-color 0.3s ease, padding 0.3s ease;
+}
+
+.footer-section {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.hr-footer {
+  border: 1px solid #2A2A2A;
+  border-radius: 9999px;
+}
+
+.footer-content {
   display: flex;
-  justify-content: flex-start;
-  margin-left: 50px;
-  margin-top: 30px;
-  font-size: 28px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.copyright {
+  color: #747474;
+}
+
+.mit {
+  display: flex;
+  align-items: center;
+}
+
+.mit-p {
+  margin-left: 10px;
+  color: #747474;
+}
+
+.mit-img {
+  width: 28px;
+}
+
+/* Flexbox for the links section */
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.impo-footer-links,
+.social-footer-links,
+.other-footer-links {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+
+.impo-main-p-footer-link,
+.social-main-p-footer-link,
+.other-main-p-footer-link {
+  color: #fff;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+.impo-footer-links a,
+.social-footer-links a,
+.other-footer-links a {
+  color: #747474;
+  text-decoration: none;
+  margin-bottom: 5px;
+  font-size: 0.9em;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.impo-footer-links a:hover,
+.social-footer-links a:hover,
+.other-footer-links a:hover {
+  cursor: pointer;
   color: #fff;
 }
 
-.contactme-input-name {
-  display: flex;
-  justify-content: flex-start;
-  margin-left: 20px;
-  border: 1px solid #2A2A2A;
-  border-radius: 8px;
-  background-color: #bababa;
-  font-size: 21px;
-  width: 250px;
-  height: 30px;
-}
 
 @media (max-width: 1024px) {
   .logo-text {
@@ -587,7 +678,8 @@ a {
   .text-section,
   .stats-section,
   .aboutme-section,
-  .technologies-section {
+  .technologies-section,
+  .contact-section {
     display: none;
   }
 
