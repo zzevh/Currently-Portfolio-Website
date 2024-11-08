@@ -245,11 +245,18 @@ h1 {
 }
 
 .text-section {
-
   display: flex;
   justify-content: center;
   width: 800px;
   margin: 40px auto;
+}
+
+.work-text-section {
+  display: flex;
+  justify-content: center;
+  width: 800px;
+  margin: 40px auto;
+  margin-bottom: -250px;
 }
 
 .contact-button {
@@ -390,6 +397,13 @@ a {
   text-align: left;
 }
 
+.p-bio-work {
+  width: 800px;
+  margin-top: 20px;
+  color: #B9B9B9;
+  text-align: left;
+}
+
 .githubpng {
   width: 20px;
   height: 20px;
@@ -509,7 +523,19 @@ a {
   justify-content: center;
 }
 
+.mywork-section {
+  display: flex;
+  margin-top: -100px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
 .opensource-container {
+  width: 800px;
+  margin-bottom: 10px;
+}
+
+.mywork-container {
   width: 800px;
   margin-bottom: 10px;
 }
@@ -652,6 +678,17 @@ a {
 .other-footer-links a:hover {
   cursor: pointer;
   color: #fff;
+}
+
+.work-hr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-color: #0a0a0a;
+  border-radius: 999px;
+  width: 500px;
 }
 
 
