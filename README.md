@@ -1,1 +1,1 @@
-![Pageview](https://media.discordapp.net/attachments/1158773437515436103/1297597819640610846/Xnip2024-10-20_18-30-19.png?ex=671681a4&is=67153024&hm=7e2dedb361a68bcc819f8b9fbdc6e9889e5c44221ebae16410902f435951f8e0&=&format=webp&quality=lossless&width=1210&height=671)
+[![temp-Image9-Wz-PW7.avif](https://i.postimg.cc/W1KGrcSh/temp-Image9-Wz-PW7.avif)](https://postimg.cc/yDm345MH)
