@@ -475,7 +475,6 @@ a {
   margin-top: 15px;
   margin-bottom: -15px;
   display: flex;
-  /* Utrzymanie flex w tym divie */
   justify-content: center;
   align-items: center;
   width: 160px;
@@ -495,18 +494,14 @@ a {
 
 .p-raect {
   display: flex;
-  /* Utrzymanie flex */
   justify-content: center;
-  /* Wyrównanie poziome */
   align-items: center;
-  /* Wyrównanie pionowe */
   font-size: 16px;
   cursor: pointer;
 }
 
 .img-react {
   margin-right: 5px;
-  /* Możesz dodać margines po prawej stronie dla lepszej estetyki */
   width: 24px;
   cursor: pointer;
 }
@@ -638,7 +633,7 @@ a {
   width: 28px;
 }
 
-/* Flexbox for the links section */
+
 .footer-links {
   display: flex;
   justify-content: space-between;
@@ -722,7 +717,6 @@ a {
     display: none;
   }
 
-  /* Centered message box */
   .message-box {
     display: flex;
     justify-content: center;
